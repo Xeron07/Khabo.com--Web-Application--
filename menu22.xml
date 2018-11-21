@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+ <id>22</id>
+ <items0>Chicken burger</items0>
+ <prizes0>240</prizes0>
+ <items1>Beef burger</items1>
+ <prizes1>260</prizes1>
+ <items2>mega burger</items2>
+ <prizes2>350</prizes2>
+ <items3>Mini burger</items3>
+ <prizes3>200</prizes3>
+ <items4>cheese Burger</items4>
+ <prizes4>250</prizes4>
+ <items5>steamed burger</items5>
+ <prizes5>300</prizes5>
+</menu>

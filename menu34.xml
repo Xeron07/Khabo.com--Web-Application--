@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+ <id>34</id>
+ <items0>tea</items0>
+ <prizes0>10</prizes0>
+ <items1>cold coffee</items1>
+ <prizes1>40</prizes1>
+ <items2>noodles</items2>
+ <prizes2>50</prizes2>
+ <items3>soup</items3>
+ <prizes3>40</prizes3>
+ <items4>pasta</items4>
+ <prizes4>80</prizes4>
+ <items5>pizza</items5>
+ <prizes5>150</prizes5>
+</menu>

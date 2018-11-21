@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+ <id>32</id>
+ <items0>Burger</items0>
+ <prizes0>50</prizes0>
+ <items1>Khichuri</items1>
+ <prizes1>60</prizes1>
+ <items2>nan</items2>
+ <prizes2>10</prizes2>
+ <items3>vegetable</items3>
+ <prizes3>10</prizes3>
+ <items4>chap</items4>
+ <prizes4>100</prizes4>
+ <items5>water</items5>
+ <prizes5>10</prizes5>
+</menu>

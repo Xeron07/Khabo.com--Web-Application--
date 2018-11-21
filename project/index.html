@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head  >
+  <style>
+    
+	
+	.button {
+    background-color: ash;
+    border: none;
+    color: green;
+    padding: 12px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+	
+	*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+body{
+  background: #000;
+}
+
+.cont{
+  width: 93%;
+  max-width: 350px;
+  text-align: center;
+  margin: 4% auto;
+  padding: 30px 0;
+  background: #111;
+  color: #EEE;
+  border-radius: 5px;
+  border: thin solid #444;
+  overflow: hidden;
+}
+
+hr{
+  margin: 20px;
+  border: none;
+  border-bottom: thin solid rgba(255,255,255,.1);
+}
+
+div.title{
+  font-size: 2em;
+}
+
+h1 span{
+  font-weight: 300;
+  color: #Fd4;
+}
+
+div.stars{
+  width: 270px;
+  display: inline-block;
+}
+
+input.star{
+  display: none;
+}
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+  content:'\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+
+
+input.star-5:checked ~ label.star:before {
+  color:#FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before {
+  color: #F62;
+}
+
+label.star:hover{
+  transform: rotate(-15deg) scale(1.3);
+}
+
+label.star:before{
+  content:'\f006';
+  font-family: FontAwesome;
+}
+
+.rev-box{
+  overflow: visible;
+  height: 0;
+  width: 100%;
+  transition: all .25s;
+}
+
+textarea.review{
+  background: #222;
+  border: none;
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #EEE;
+}
+
+label.review{
+  display: block;
+  transition:opacity .25s;
+}
+
+
+
+input.star:checked ~ .rev-box{
+  height: 125px;
+  overflow: visible;
+}
+
+  </style>
+<title>Khabo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+<body id="top">
+
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/khabo.jpg');"> 
+
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1><a href="index.html">Khabo</a></h1>
+      </div>
+      <!-- ################################################################################################ -->
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="index.html">Home</a></li>
+		  <li class="active"><a href="contact.html">Contact us</a></li>
+          <li class="active"><a href="about.html">About us</a></li>
+		  <li class="active"><a href="logout.html">Log out</a></li>
+         
+         
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading">Dear guest you are welcomed to Dine with us</h3>
+      <p>we will serve you with the mouth watering dishes</p>
+      <footer>
+        <form class="group" method="post" action="#">
+          <fieldset>
+            <legend>Sign-Up:</legend>
+            <input type="Search here" value="" placeholder="Search Here&hellip;">
+            <button class="fas fa-sign-in-alt" type="submit" title="Submit"><em>Submit</em></button>
+          </fieldset>
+        </form>
+      </footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section id="references" class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Comment and Navigation section</h6>
+      <p></p>
+    </div>
+	</div>
+
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/index2.jpg');"> 
+
+
+<div style="text-align:right; font-size:18px; width:95%; margin-top:1%"></div>
+<br/>
+
+
+
+
+
+<div class="cont" >
+<div class="stars">
+<form action="" >
+  <input class="star star-5" id="star-5-2" type="radio" name="star"/>
+  <label class="star star-5" for="star-5-2"></label>
+  <input class="star star-4" id="star-4-2" type="radio" name="star"/>
+  <label class="star star-4" for="star-4-2"></label>
+  <input class="star star-3" id="star-3-2" type="radio" name="star"/>
+  <label class="star star-3" for="star-3-2"></label>
+  <input class="star star-2" id="star-2-2" type="radio" name="star"/>
+  <label class="star star-2" for="star-2-2"></label>
+  <input class="star star-1" id="star-1-2" type="radio" name="star"/>
+  <label class="star star-1" for="star-1-2"></label>
+  <div class="rev-box">
+    <textarea class="review" col="30" name="review"></textarea>
+	<div class="button">
+    <button ><label class="review" for="review">Submit Review</label></button>
+	</div>
+  </div>
+</form>
+</div>
+</div>
+
+<div class="wrapper row2">
+  <section id="references" class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      
+      <p></p>
+    </div>
+	</div>
+
+</div>
+<div class="wrapper row2">
+  <section id="references" class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Some of our Dishes!</h6>
+      <p></p>
+    </div>
+    <nav class="ref-sort">
+      <ul>
+
+        <li><a href="#">delicious</a></li>
+        <li><a href="#">Divine</a></li>
+        <li><a href="#">Tasty</a></li>
+      </ul>
+    </nav>
+    <ul class="nospace group ref-img">
+      <li class="one_third"><a  href="#"><img src="images/demo/img1.jpg" alt=""></a></li>
+      <li class="one_third"><a  href="#"><img src="images/demo/img2.jpg" alt=""></a></li>
+      <li class="one_third"><a  href="#"><img src="images/demo/img3.jpg" alt=""></a></li>
+      <li class="one_third"><a  href="#"><img src="images/demo/img4.jpg" alt=""></a></li>
+      <li class="one_third"><a  href="#"><img src="images/demo/img5.jpg" alt=""></a></li>
+      <li class="one_third"><a  href="#"><img src="images/demo/img6.jpg" alt=""></a></li>
+    </ul>
+    <footer class="block center"><a class="btn" href="#">View more here</a></footer>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Food Menu</h6>
+      <p>We provide most of the special dishes of home and abraod</p>
+      <div class="">
+
+      </div>
+    </div>
+
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+
+
+<div class="wrapper row3">
+ 
+</div>
+
+
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+   
+	<div class="container">
+		<h3>Contact Us</h3>
+		<p class="ever">To send your queries and more</p>
+		<div class="contact-us1-bottom w3layouts-agile">
+			<form action="#" method="post">
+							<input type="text" placeholder="Name" required="">			
+									<input type="email" placeholder="Email" required="">			
+									
+									<textarea placeholder="Message" required=""></textarea>
+									<input type="submit" value="Submit" >
+
+							</form>
+		</div>
+</div>		
+    <!-- ################################################################################################ -->
+  </div>
+
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
+
+<!--  <li><a href="#">Link Text</a></li>
+          <li><a href="#">Link Text</a></li>
+          <li><a href="#">Link Text</a></li>
+          <li><a href="#">Long Link Text</a></li> -->

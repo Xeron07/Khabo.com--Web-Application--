@@ -1,0 +1,461 @@
+
+
+/*--reset--*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*--start editing from here--*/
+
+a {
+    text-decoration: none;
+}
+
+.txt-rt {
+    text-align: right;
+}
+
+/* text align right */
+
+.txt-lt {
+    text-align: left;
+}
+
+/* text align left */
+
+.txt-center {
+    text-align: center;
+}
+
+/* text align center */
+
+.float-rt {
+    float: right;
+}
+
+/* float right */
+
+.float-lt {
+    float: left;
+}
+
+/* float left */
+
+.clearfix {
+    clear: both;
+}
+
+/* clear float */
+
+.pos-relative {
+    position: relative;
+}
+
+/* Position Relative */
+
+.pos-absolute {
+    position: absolute;
+}
+
+/* Position Absolute */
+
+.vertical-base {
+    vertical-align: baseline;
+}
+
+/* vertical align baseline */
+
+.vertical-top {
+    vertical-align: top;
+}
+
+/* vertical align top */
+
+nav.vertical ul li {
+    display: block;
+}
+
+/* vertical menu */
+
+nav.horizontal ul li {
+    display: inline-block;
+}
+
+/* horizontal menu */
+
+img {
+    max-width: 100%;
+}
+
+/*--end reset--*/
+
+body a:hover {
+    text-decoration: none;
+}
+
+body {
+    background: url(../images/resturant.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* content */
+
+/*
+  Responsive form elements
+  Flexbox layout
+*/
+
+h1 {
+    font-size: 2.9em;
+    text-transform: capitalize;
+    color: #000000;
+    text-shadow: 4px 3px 1px rgba(0, 0, 0, 0.22);
+    letter-spacing: 3px;
+    margin: 0.8em 1vw .9em;
+    font-family: 'Hind', sans-serif;
+}
+
+.copy {
+    margin: 3em 0em;
+}
+
+/* form style */
+
+.reg {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.reg form {
+    max-width: 700px;
+    margin: 0 5vw;
+    background: #dfecfb;
+    padding: 3.5vw;
+    border: 1px solid #a7a5a5;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.admin {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.field {
+    flex-basis: 24%;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.field-right {
+    flex-basis: 74%;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.left {
+    flex-basis: 36%;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #0d4a89;
+    float: left;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    letter-spacing: 0.7px;
+}
+
+.left label,
+.bot_label {
+    color: #777;
+    margin-bottom: 0;
+}
+
+.reg input[type="text"],
+.reg input[type="email"] {
+    width: 100%;
+    color: #000;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    /* line-height: 25px; */
+    padding: 8px 15px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #4e4e4e;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.49);
+    -webkit-appearance: none;
+    font-family: 'Hind', sans-serif;
+    background: none;
+}
+
+.field-check.field-right label {
+    float: none;
+    color: #000;
+}
+
+
+
+.copy p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.copy p a {
+    color: #024787;
+}
+.mr_ag {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact.mr_ag.sub {
+    margin-top: 10px;
+}
+.reg input[type="submit"] {
+    color: #dfecfb;
+    flex-basis: 100%;
+    width:100%;
+    -webkit-flex-basis: 100%;
+    padding: 0.5em 0;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #024787;
+    font-family: 'Hind', sans-serif;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.reg input[type="submit"]:hover {
+    background: #000;
+    color: #fff;
+}
+
+label.bot_label {
+    margin-bottom: 10px;
+}
+
+/*--responsive--*/
+
+@media(max-width:1920px) {
+    h1 {
+        font-size: 3.5vw;
+    }
+}
+
+@media(max-width:1024px) {
+    h1 {
+        font-size: 4.5vw;
+    }
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 5vw;
+    }
+}
+
+@media(max-width:568px) {
+    .mr_agilemain {
+        display: block;
+    }
+    .field label {
+        float: none;
+    }
+    .field ,.field-right{
+        margin-bottom: 1em;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .contact form {
+        padding: 7.5vw;
+    }
+    .copy p {
+        font-size: 14px;
+        padding: 0 1em 1em;
+    }
+}
+
+@media(max-width:440px) {
+    h1 {
+        font-size: 2.3em;
+    }
+    .parent {
+        display: block;
+    }
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    .contact form {
+        padding: 25px 8px;
+    }
+}
+
+/*--//responsive--*/

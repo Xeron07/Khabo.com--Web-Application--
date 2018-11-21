@@ -1,0 +1,19 @@
+
+
+#map{
+   
+    max-height: 80%;
+    height:500px;
+}
+#top{
+    
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+#loading{
+  margin-left: -1.8%;
+  margin-top: 0%;
+ 
+}
+
