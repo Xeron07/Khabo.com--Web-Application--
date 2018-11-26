@@ -170,11 +170,17 @@ if (isset($_GET['reg']) && $_GET['reg'] == true) {
                     else if (result == 1) {
                         swal("Yahooooo!!", "Login Successful", "success")
                             .then((value) => {
-                                location.replace("user.php");
+                                location.replace("admin/index.php");
                             });
 
                     }
                     else if (result == 2) {
+                        swal("Yahooooo!!", "Login Successful", "success")
+                            .then((value) => {
+                                location.replace("owner/index.php");
+                            });
+                    }
+                    else if (result == 3) {
                         swal("Yahooooo!!", "Login Successful", "success")
                             .then((value) => {
                                 location.replace("user.php");

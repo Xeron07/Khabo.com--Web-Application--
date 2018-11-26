@@ -192,7 +192,7 @@ if (isset($s['uname'])) {
                 </tr>
                 
                     <?php
-                          $xml=simplexml_load_file("menu".$resid.".xml") or die("Error: Cannot create object");
+                          $xml=simplexml_load_file("./xml/menus/menu".$resid.".xml") or die("Error: Cannot create object");
 
                             echo "<tr>";
                                echo "<td>".$xml->items0."</td>";

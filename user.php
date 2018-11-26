@@ -348,10 +348,10 @@ else{
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left:50%">
 	  <li></li><li></li>
       <li class="nav-item active">
-        <a class="text-white nav-link page-scroll" href="#" >Welcome, <?php echo $s['uname']; ?><span class="sr-only">(current)</span></a>
+        <a class="text-white nav-link page-scroll" href="#" >Welcome, <i style="color:#479b91" onclick='location.replace("user/index.html")'> <?php echo $s['uname']; ?> </i><span class="sr-only">(current)</span></a>
       </li>  
 	  <li class="nav-item">
-        <a class="text-white nav-link active" href="#">LOGOUT </a>
+        <a class="text-white nav-link active" href="logout.php">LOGOUT </a>
       </li>
     </ul>
     <!--

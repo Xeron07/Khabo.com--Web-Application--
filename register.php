@@ -1,3 +1,6 @@
+<?php
+ session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -139,9 +142,29 @@
                             <div class="form-group no-margin">
                                 <input type="submit" name="submit" value="submit" class="btn btn-primary btn-block"/>
                             </div>
-                            <div class="margin-top20 text-center">
+                            <?php
+
+                            if(isset($_SESSION['status'])){
+                                if($_SESSION['status']=='admin')
+                                {
+                                    echo '<div class="margin-top20 text-center">
+                                          Take Me to the admin panel <a href="admin/index.php">Admin Panel</a>
+                            </div>';
+                                }
+                                else{
+                                    echo'<div class="margin-top20 text-center">
                                 Already have an account? <a href="index.php">Go Home First</a>
-                            </div>
+                            </div>';
+                                }
+                            }
+                            else{
+                                    echo'<div class="margin-top20 text-center">
+                                Already have an account? <a href="index.php">Go Home First</a>
+                            </div>';
+                                }
+                            
+
+                            ?>
                         </form>
                     </div>
                 </div>
